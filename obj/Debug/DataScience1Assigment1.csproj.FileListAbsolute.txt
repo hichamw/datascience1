@@ -1,0 +1,8 @@
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\bin\Debug\DataScience1Assigment1.exe.config
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\bin\Debug\DataScience1Assigment1.exe
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\bin\Debug\DataScience1Assigment1.pdb
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\obj\Debug\DataScience1Assigment1.csprojResolveAssemblyReference.cache
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\obj\Debug\DataScience1Assigment1.exe
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\obj\Debug\DataScience1Assigment1.pdb
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hicha\Google Drive\Data Science 1\Assignments\Homework week 1\DataScience1Assigment1\DataScience1Assigment1\bin\Debug\Newtonsoft.Json.xml

@@ -21,30 +21,31 @@ namespace DataScience1Assigment1
             Array text = File.ReadAllLines(userItemPath);
             
             Dictionary<string, Dictionary<string, string>> mainDic = new Dictionary<string, Dictionary<string, string>> ();
-            
+
             foreach (string line in text)
             {
                 var splitLine = line.Split(',');
                 string user = splitLine[0];
                 string item = splitLine[1];
                 string rating = splitLine[2];
-                
+
                 if (mainDic.ContainsKey(user))
                 {
                     if (!mainDic[user].ContainsKey(item))
                     {
-                        mainDic[user].Add(item,rating);
-                    } 
+                        mainDic[user].Add(item, rating);
+                    }
                 }
                 else
                 {
                     mainDic.Add(user, new Dictionary<string, string>());
-                    mainDic[user].Add(item,rating);
+                    mainDic[user].Add(item, rating);
                 }
             }
-
-            Console.WriteLine(CalculateSimilarity("pearson",mainDic["1"],mainDic["4"]));
             
+            Console.WriteLine(CalculateSimilarity("pearson",mainDic["1"],mainDic["4"]));
+            Console.ReadLine();
+
 //            foreach (var user in mainDic)
 //            {
 //                using(StreamWriter writetext = new StreamWriter(outputFile,true))

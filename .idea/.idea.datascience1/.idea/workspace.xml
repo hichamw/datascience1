@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6d66844-805d-42bf-8908-6d5eb90fca48" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/App.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DataScience1Assigment1.csproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DataScience1Assigment1.csproj.user" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.exe.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.pdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.vshost.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.vshost.exe.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataScience1Assigment1.vshost.exe.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Newtonsoft.Json.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Newtonsoft.Json.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/write.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/DataScience1Assigment1.exe.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/DataScience1Assigment1.vshost.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/DataScience1Assigment1.vshost.exe.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/DataScience1Assigment1.vshost.exe.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/allbut.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/mku.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.genre" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.item" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.occupation" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u.user" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u1.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u1.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u2.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u2.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u3.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u3.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u4.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u4.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u5.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/u5.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/ua.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/ua.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/ub.base" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ml-100k/ub.test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataScience1Assigment1.csproj.FileListAbsolute.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataScience1Assigment1.csprojResolveAssemblyReference.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataScience1Assigment1.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataScience1Assigment1.pdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/DataScience1Assigment1.csproj.FileListAbsolute.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/userItem.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/write.txt" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataScience1Assigment1/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DataScience1Assigment1/Program.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="datascience1" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="datascience1" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="DataScience1Assigment1" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6d66844-805d-42bf-8908-6d5eb90fca48" name="Default" comment="" />
+      <created>1523521317105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523521317105</updated>
+      <workItem from="1523521318731" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="161000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience1Assigment1.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience1Assigment1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

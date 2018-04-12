@@ -47,7 +47,7 @@ namespace DataScience1Assigment1
                 }
             }
             
-            Console.WriteLine(CalculateSimilarity("cosine", userPreferences["3"], userPreferences["4"]));
+            Console.WriteLine(CalculateSimilarity("pearson", userPreferences["3"], userPreferences["4"]));
 
             foreach (var user in userPreferences)
             {
@@ -105,7 +105,6 @@ namespace DataScience1Assigment1
 
         private static double PearsonSimilarity(Dictionary<string, string> user1, Dictionary<string, string> user2)
         {
-            double answer = 0;
             double sumUser1 = 0;
             double sumUser2 = 0;
             double sumPowUser1 = 0;
@@ -127,14 +126,12 @@ namespace DataScience1Assigment1
                 }
             }
 
+            double topRight = (sumUser1 * sumUser2) / count;
 
-            double topright = (sumUser1 * sumUser2) / count;
             double bottomLeft = Math.Sqrt(sumPowUser1 - Math.Pow(sumUser1, 2.0) / count);
             double bottomRight = Math.Sqrt(sumPowUser2 - Math.Pow(sumUser2, 2.0) / count);
-
-            var distance = (topLeft - topright) / (bottomLeft * bottomRight);
-
-            answer = 1 / (distance + 1);
+            
+            var answer = (topLeft - topRight) / (bottomLeft * bottomRight);
 
             return answer;
         }

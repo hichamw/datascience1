@@ -1,4 +1,4 @@
 #Gitignore
 
-vs/
-idea/
+.vs/
+.idea/

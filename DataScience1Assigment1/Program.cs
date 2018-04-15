@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -63,12 +65,14 @@ namespace DataScience1Assigment1
 //                    }
 //                }
 
-                var nearestNeighbors = GetNearestNeighbors(3, "euclidean", 0.35, "7", userPreferences);
+//                var nearestNeighbors = GetNearestNeighbors(3, "euclidean", 0.35, "7", userPreferences);
+//
+//                foreach (var entry in nearestNeighbors)
+//                {
+//                    Console.WriteLine(entry.Key + " " + entry.Value);
+//                }
 
-                foreach (var entry in nearestNeighbors)
-                {
-                    Console.WriteLine(entry.Key + " " + entry.Value);
-                }
+                Console.WriteLine(GetRatingPrediction(3, "euclidean", 0.35, "7", "103", userPreferences));
             }
         }
 
@@ -216,6 +220,35 @@ namespace DataScience1Assigment1
             }
 
             return neighbors;
+        }
+
+        private static double GetRatingPrediction(int neighborAmount, string strategy, double thresHold,
+            string targetUser, string targetItem, Dictionary<string, Dictionary<string, string>> userPreferences)
+        {
+            double result = 0.0;
+            double similaritySum = 0.0;
+
+            var nearestNeighbors =
+                GetNearestNeighbors(neighborAmount, strategy, thresHold, targetUser, userPreferences);
+
+            foreach (var neighbor in nearestNeighbors)
+            {
+                if (userPreferences[neighbor.Value].ContainsKey(targetItem))
+                {
+                    similaritySum += neighbor.Key;
+                }
+            }
+
+            foreach (var neighbor in nearestNeighbors)
+            {
+                if (userPreferences[neighbor.Value].ContainsKey(targetItem))
+                {
+                    double percentage = neighbor.Key / similaritySum;
+                    result += percentage * Convert.ToDouble(userPreferences[neighbor.Value][targetItem]);
+                }
+            }
+
+            return result;
         }
     }
 }

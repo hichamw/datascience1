@@ -62,16 +62,20 @@ namespace DataScience1Assigment1
 //                        }
 //                    }
 //                }
-                
-                Console.WriteLine(CalculateSimilarity(userPreferences["1"], userPreferences["2"]));
+
+                var nearestNeighbors = GetNearestNeighbors(3, "euclidean", 0.35, "7", userPreferences);
+
+                foreach (var entry in nearestNeighbors)
+                {
+                    Console.WriteLine(entry.Key + " " + entry.Value);
+                }
             }
         }
 
-        private static double CalculateSimilarity(Dictionary<string, string> user1, Dictionary<string, string> user2)
+        private static double CalculateSimilarity(string strategy, Dictionary<string, string> user1,
+            Dictionary<string, string> user2)
         {
             double answer = 0;
-            Console.WriteLine("What calculation strategy do you want to use? Please type in euclidean, pearson or cosine.");
-            string strategy = Console.ReadLine();
             switch (strategy)
             {
                 case "euclidean":
@@ -103,7 +107,6 @@ namespace DataScience1Assigment1
             var distance = Math.Sqrt(ratingsSum);
 
             double answer = 1 / (distance + 1);
-
             return answer;
         }
 
@@ -116,7 +119,6 @@ namespace DataScience1Assigment1
             double topLeft = 0;
 
             int count = 0;
-
             foreach (var rating in user1)
             {
                 if (user2.ContainsKey(rating.Key))
@@ -131,12 +133,10 @@ namespace DataScience1Assigment1
             }
 
             double topRight = (sumUser1 * sumUser2) / count;
-
             double bottomLeft = Math.Sqrt(sumPowUser1 - Math.Pow(sumUser1, 2.0) / count);
             double bottomRight = Math.Sqrt(sumPowUser2 - Math.Pow(sumUser2, 2.0) / count);
 
             var answer = (topLeft - topRight) / (bottomLeft * bottomRight);
-
             return answer;
         }
 
@@ -146,12 +146,32 @@ namespace DataScience1Assigment1
             double bottomLeft = 0;
             double bottomRight = 0;
 
-            foreach (var rating in user1)
+            if (user1.Count > user2.Count)
             {
-                if (user2.ContainsKey(rating.Key))
+                foreach (var rating in user1)
                 {
                     double rating1 = Convert.ToDouble(rating.Value);
-                    double rating2 = Convert.ToDouble(user2[rating.Key]);
+                    double rating2 = 0.0;
+                    if (user2.ContainsKey(rating.Key))
+                    {
+                        rating2 = Convert.ToDouble(user2[rating.Key]);
+                    }
+
+                    top += (rating1 * rating2);
+                    bottomLeft += Math.Pow(rating1, 2.0);
+                    bottomRight += Math.Pow(rating2, 2.0);
+                }
+            }
+            else
+            {
+                foreach (var rating in user2)
+                {
+                    double rating1 = Convert.ToDouble(rating.Value);
+                    double rating2 = 0.0;
+                    if (user2.ContainsKey(rating.Key))
+                    {
+                        rating2 = Convert.ToDouble(user1[rating.Key]);
+                    }
 
                     top += (rating1 * rating2);
                     bottomLeft += Math.Pow(rating1, 2.0);
@@ -164,8 +184,38 @@ namespace DataScience1Assigment1
             double bottom = bottomLeft * bottomRight;
 
             double answer = top / bottom;
-
             return answer;
+        }
+
+        private static SortedList<double, string> GetNearestNeighbors(int neighborAmount, string strategy,
+            double thresHold,
+            string targetUser,
+            Dictionary<string, Dictionary<string, string>> userPreferences)
+        {
+            SortedList<double, string> neighbors = new SortedList<double, string>();
+            foreach (var user in userPreferences)
+            {
+                if (user.Key != targetUser)
+                {
+                    var similarity =
+                        CalculateSimilarity(strategy, userPreferences[user.Key], userPreferences[targetUser]);
+                    if (similarity > thresHold && userPreferences[user.Key].Count > userPreferences[targetUser].Count)
+                    {
+                        if (neighbors.Count < neighborAmount)
+                        {
+                            neighbors.Add(similarity, user.Key);
+                        }
+                        else
+                        {
+                            neighbors.Remove(neighbors.First().Key);
+                            neighbors.Add(similarity, user.Key);
+                            thresHold = neighbors.First().Key;
+                        }
+                    }
+                }
+            }
+
+            return neighbors;
         }
     }
 }
